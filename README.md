@@ -6,7 +6,11 @@
 
 ### Exercício 1
 
-- Estilizar a pagina disponibilizada.
+- Estilizar a página disponibilizada.
+
+### Exercício 2
+
+- Estilizar a página baseada em um blog.
 
 ## Meta
 
