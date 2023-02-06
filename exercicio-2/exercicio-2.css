@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+h1 {
+  font-family: 'Montserrat', serif;
+}
+.date {
+  font-family: 'Roboto', sans-serif;
+  color: #008080;
+}
+.post-bg {
+  background-color: #fffafa;
+}
+.post {
+  padding: 30px;
+}
+.post-content {
+  font-family: 'Open Sans', sans-serif;
+}
+hr {
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: block;
+  margin-top: 20px;
+}
