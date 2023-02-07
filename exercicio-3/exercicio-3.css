@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 img {
   display: block;
   max-width: 100%;
@@ -22,10 +25,10 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.logo-rock {
-  height: 50px;
-}
+.logo-rock,
 .logo-obc {
   height: 50px;
 }
@@ -34,6 +37,7 @@ header .container {
   gap: 10px;
 }
 .menu-list a {
+  display: block;
   padding: 10px;
   font-size: 18px;
   background-color: transparent;
@@ -45,4 +49,21 @@ header .container {
 .menu-list a:hover {
   border-color: #c7053a;
   color: #c7053a;
+}
+
+/* ---- RESPONSIVO ---- */
+@media (max-width: 610px) {
+  header .container {
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .logo-rock,
+  .logo-obc {
+    height: 40px;
+  }
+  .menu-list a {
+    font-size: 16px;
+    padding: 5px;
+  }
 }
