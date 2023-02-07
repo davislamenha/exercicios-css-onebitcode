@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  width: min(100% - 40px, 1300px);
+  margin-inline: auto;
+}
+header {
+  background-color: #111;
+  padding-block: 15px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.logo-rock,
+.logo-obc {
+  height: 50px;
+}
+.menu-list {
+  display: flex;
+  gap: 10px;
+}
+.menu-list a {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: 0.3s all;
+}
+.menu-list a:hover {
+  border-color: #c7053a;
+  color: #c7053a;
+}
+
+body .container > a {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 3px solid #111;
+  border-radius: 4px;
+  background-color: #111;
+  color: #c7053a;
+  text-transform: uppercase;
+  transition: 0.3s all;
+}
+body .container > a:hover {
+  border-color: #c7053a;
+  color: #fff;
+}
+
+/* ---- RESPONSIVO ---- */
+@media (max-width: 610px) {
+  header .container {
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .logo-rock,
+  .logo-obc {
+    height: 40px;
+  }
+  .menu-list a {
+    font-size: 16px;
+    padding: 5px;
+  }
+}
