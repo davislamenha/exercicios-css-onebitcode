@@ -17,6 +17,11 @@
 - Estilizar um header básico
 - Deixar o header responsivo
 
+### Exercício 4
+
+- Criar um layout com header, conteudo principal com 6 itens e um footer
+- Deixar o layout responsivo apenas com Flexbox
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
