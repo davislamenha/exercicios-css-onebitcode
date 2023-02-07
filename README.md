@@ -12,6 +12,11 @@
 
 - Estilizar a página baseada em um blog.
 
+### Exercício 3
+
+- Estilizar um header básico
+- Deixar o header responsivo
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
