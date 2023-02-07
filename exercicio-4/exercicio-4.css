@@ -42,5 +42,21 @@ footer {
   padding-block: 10px;
 }
 footer {
+  position: relative;
   justify-self: flex-end;
+}
+footer a {
+  display: block;
+  position: absolute;
+  left: 10px;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+footer a:hover {
+  background-color: #333;
 }
