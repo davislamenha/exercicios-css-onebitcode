@@ -51,6 +51,23 @@ header .container {
   color: #c7053a;
 }
 
+body .container > a {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 3px solid #111;
+  border-radius: 4px;
+  background-color: #111;
+  color: #c7053a;
+  text-transform: uppercase;
+  transition: 0.3s all;
+}
+body .container > a:hover {
+  border-color: #c7053a;
+  color: #fff;
+}
+
 /* ---- RESPONSIVO ---- */
 @media (max-width: 610px) {
   header .container {
