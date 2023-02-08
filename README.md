@@ -22,6 +22,11 @@
 - Criar um layout com header, conteudo principal com 6 itens e um footer
 - Deixar o layout responsivo apenas com Flexbox
 
+### Exercício 5
+
+- Criar um layout com header, conteudo principal com 6 itens e um footer
+- Deixar o layout responsivo apenas com Grid
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
