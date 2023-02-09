@@ -39,6 +39,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
   flex-wrap: wrap;
 }
 .logo-header {
@@ -165,6 +166,7 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
   flex-wrap: wrap;
 }
 footer img {
@@ -201,6 +203,10 @@ footer a:hover::after {
       'ml'
       'pd';
   }
+  header .container > img,
+  footer .container > img {
+    height: 40px;
+  }
   .menu-lateral {
     overflow: auto;
     flex-direction: row;
@@ -219,5 +225,11 @@ footer a:hover::after {
   .link-lateral > h3 {
     white-space: nowrap;
     word-break: keep-all;
+  }
+}
+@media (max-width: 446px) {
+  header .container,
+  footer .container {
+    justify-content: center;
   }
 }
