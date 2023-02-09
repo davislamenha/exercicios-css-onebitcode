@@ -19,6 +19,12 @@ a {
 main {
   padding-block: 20px;
 }
+main .container {
+  display: grid;
+  gap: 0px 60px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 'tp tp tp tp' 'pd pd pd ml';
+}
 img {
   display: block;
   max-width: 100%;
@@ -64,6 +70,10 @@ header .container {
 }
 
 /* ==== TITULO PRINCIPAL ====== */
+.titulo-principal {
+  grid-area: tp;
+}
+
 .titulo-principal > h2,
 .titulo-principal > p {
   text-align: center;
@@ -77,6 +87,7 @@ header .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  grid-area: pd;
 }
 .produto {
   display: flex;
@@ -106,4 +117,9 @@ header .container {
 }
 .produto-info > p {
   color: #111;
+}
+
+/* ==== MENU LATERAL ====== */
+.menu-lateral {
+  grid-area: ml;
 }
