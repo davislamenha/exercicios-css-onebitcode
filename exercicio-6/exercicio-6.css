@@ -71,3 +71,23 @@ header .container {
 .titulo-principal > p {
   margin-bottom: 20px;
 }
+
+/* ==== PRODUTOS ====== */
+#produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.produto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.produto > img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.produto > h3 {
+  text-transform: uppercase;
+}
