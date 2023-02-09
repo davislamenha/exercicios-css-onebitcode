@@ -85,7 +85,7 @@ header .container {
 /* ==== PRODUTOS ====== */
 #produtos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
   grid-area: pd;
 }
@@ -121,13 +121,14 @@ header .container {
 
 /* ==== MENU LATERAL ====== */
 .menu-lateral {
+  align-self: flex-start;
   grid-area: ml;
   display: flex;
   flex-direction: column;
   gap: 20px;
 
   background-color: #dcdcdc;
-  padding: 20px 40px;
+  padding: 10px 20px;
   border-radius: 5px;
 }
 .menu-lateral h3 {
@@ -185,4 +186,14 @@ footer a::after {
 footer a:hover::after {
   opacity: 1;
   bottom: -5px;
+}
+
+/* ==== RESPONSIVO ====== */
+@media (max-width: 1240px) {
+  main .container {
+    gap: 0px 40px;
+  }
+  .produto:nth-child(2) img {
+    object-position: top;
+  }
 }
