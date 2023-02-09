@@ -16,6 +16,9 @@ a {
   width: min(100% - 30px, 1300px);
   margin-inline: auto;
 }
+main {
+  padding-block: 20px;
+}
 img {
   display: block;
   max-width: 100%;
@@ -58,4 +61,13 @@ header .container {
 .menu-list a:hover::after {
   opacity: 1;
   bottom: -5px;
+}
+
+/* ==== TITULO PRINCIPAL ====== */
+.titulo-principal > h2,
+.titulo-principal > p {
+  text-align: center;
+}
+.titulo-principal > p {
+  margin-bottom: 20px;
 }
