@@ -122,4 +122,32 @@ header .container {
 /* ==== MENU LATERAL ====== */
 .menu-lateral {
   grid-area: ml;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: #dcdcdc;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+.menu-lateral h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.link-lateral {
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.link-lateral:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.link-lateral img {
+  border-radius: 0 0 5px 5px;
+}
+.link-lateral h3 {
+  color: #111;
+  background-color: #ececec;
+  padding-block: 2px;
+  border-radius: 5px 5px 0 0;
 }
