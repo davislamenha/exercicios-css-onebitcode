@@ -27,6 +27,11 @@
 - Criar um layout com header, conteudo principal com 6 itens e um footer
 - Deixar o layout responsivo apenas com Grid
 
+### Exercício 6
+
+- Criar um layout igual ao apresentado em video
+- Deixar o layout responsivo
+
 ## Meta
 
 Davis Lamenha Sampaio - [Linkedin](https://www.linkedin.com/in/davislamenha/) - davislamenha@gmail.com
