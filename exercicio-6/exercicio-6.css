@@ -193,6 +193,23 @@ footer a:hover::after {
   bottom: -5px;
 }
 
+/* ==== BOTAO VOLTAR ====== */
+.voltar {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #111;
+  color: #c5083d;
+  margin-bottom: 20px;
+  transition: 0.3s all;
+}
+.voltar:hover {
+  background-color: #333;
+  color: #fff;
+}
+
 /* ==== RESPONSIVO ====== */
 @media (max-width: 768px) {
   main .container {
